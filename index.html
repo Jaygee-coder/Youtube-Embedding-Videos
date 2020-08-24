@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedding YouTube Videos to a Webpage</title>
+    <title>Google HomePage</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    </head>
+    <body>
+        <header>
+        <nav>
+            <div class="float-left">
+                <ul>
+                <li><i class="fa fa-bars" aria-hidden="true"></i></li>
+                <li><img id="youtube-logo" src="logo.png"></li>
+                </ul>   
+            </div>
+        <center>
+            <div class="form-container">
+                <form>
+                    <input type="text" placeholder="Search">
+                </form>
+                <button id="search"><i class="fa fa-search" aria-hidden="true"></i></button>
+                
+            </div>
+        </center>
+            <div class="float-right">
+                <ul>
+                    <li><i class="fa fa-video-camera" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-th" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-bell" aria-hidden="true"></i></li>
+                    <li><img id="profilepic" src="profilepic.png" alt="My YouTube profile picture"></li>
+                </ul>
+            </div>
+        </nav>
+        </header>
+        <div class="main-container">
+            <div class="left-column">
+                <iframe width="700" height="450" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h3>Contributing to Open Source Part I: The Easy Way</h3>
+                <div class="about">
+                    <spam class="one">59,471 views . Feb 27 2015</spam>
+                    <button id="thumbs-up"><i class="fa fa-thumbs-up" aria-hidden="true"></i></button>
+                    <p>439</p>
+                    <button id="thumbs-down"><i class="fa fa-thumbs-down" aria-hidden="true"></i></button>
+                    <p>19</p>
+                    <button id="share"><i class="fa fa-share" aria-hidden="true"></i></button>
+                    <p>Share</p>
+                    <button id="save"><i class="fa fa-bars" aria-hidden="true"></i></button>
+                    <p>save</p>
+                    <button id="ellipsis"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></button>
+                </div>
+                <div class="video-info">
+                    <div class="subscription">
+                        <img id="odin-logo" src="odin-logo.png" alt="The Odin Project Logo">
+                        <p class="odin"> The Odin Project<br><spam class="two">1.01K subscribers</spam></p>
+                        <button id="subscribe">SUBSCRIBE</button>
+                    </div>
+                        <p class="description">
+                            How do you contribute to open source?  In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github.  I'll also describe what kinds of 
+                        </p>
+                        <button id="show-more">SHOW MORE</button>
+                </div>
+            </div>
+            <div class="right-column">
+                <div class="playvideo">
+                    <p class="next">Up next</p>
+                    <p class="autoplay">AUTOPLAY</p>
+                    <div class="toggle-container">
+                        <div class="toggle-btn" onclick="this.classList.toggle('active')">
+                            <div class="innercircle"></div>
+                        </div>
+                </div>
+            </div>  
+                <div class="thumbnail-container">
+                    <div class="video-column">
+                        <img src="Thumbnails/imageone.png"><br>
+                        <img src="Thumbnails/imagetwo.png"><br>
+                        <img src="Thumbnails/imagethree.png"><br>
+                        <img src="Thumbnails/imagefour.png"><br>
+                        <img src="Thumbnails/imagefive.png"><br>
+                        <img src="Thumbnails/imagesix.png"><br>
+                        <img src="Thumbnails/imageseven.png"><br>
+                        <img src="Thumbnails/imageeight.png"><br>
+                        <img src="Thumbnails/imagenine.png"><br>
+                        <img src="Thumbnails/imageten.png"><br>
+                        <img src="Thumbnails/imageone.png"><br>
+                        <img src="Thumbnails/imagetwo.png"><br>
+                    </div>
+                <div class="description-column">
+                    <a href="#!">Contributing to Open Source Part II:<br> The Real Way</a><br>
+                    <p>
+                        The Odin Project<br>36K views . 6 years ago
+                    </p>
+                    <a href="#!"> Top 11 Creative Navbar You Must See<br> | Codepen HTML CSS</a><br>
+                    <p>
+                        FrontEnd Tricks<br>5.9K views . 1 year ago
+                    </p>
+                    <a href="#!"> Flexbox Tutorial (CSS):<br>Real Layout Examples</a><br>
+                    <p>
+                        LearnWebCode<br>791K views . 3 years ago
+                    </p>
+                    <a href="#!">How to Create Website Layouts Using<br> CSS Grid | Learn HTML and CSS</a><br>
+                    <p>
+                        Dani Krossing<br>743K views . 3 years ago
+                    </p>
+                    <a href="#!">Learn web development as an<br> absolute beginner (2020)</a><br>
+                    <p>
+                        Coder Coder<br>198K views . 8 months ago
+                    </p>
+                    <a href="#!">Contributing to Open Source Part II:<br> The Real Way</a><br>
+                    <p>
+                        The Odin Project<br>36K views . 6 years ago
+                    </p>
+                    <a href="#!"> Top 11 Creative Navbar You Must See<br> | Codepen HTML CSS</a><br>
+                    <p>
+                        FrontEnd Tricks<br>5.9K views . 1 year ago
+                    </p>
+                    <a href="#!"> Flexbox Tutorial (CSS):<br>Real Layout Examples</a><br>
+                    <p>
+                        LearnWebCode<br>791K views . 3 years ago
+                    </p>
+                    <a href="#!">How to Create Website Layouts Using<br> CSS Grid | Learn HTML and CSS</a><br>
+                    <p>
+                        Dani Krossing<br>743K views . 3 years ago
+                    </p>
+                    <a href="#!">Learn web development as an<br> absolute beginner (2020)</a><br>
+                    <p>
+                        Coder Coder<br>198K views . 8 months ago
+                    </p>
+                    <a href="#!">Contributing to Open Source Part II:<br> The Real Way</a><br>
+                    <p>
+                        The Odin Project<br>36K views . 6 years ago
+                    </p>
+                    <a href="#!"> Top 11 Creative Navbar You Must See<br> | Codepen HTML CSS</a><br>
+                    <p>
+                        FrontEnd Tricks<br>5.9K views . 1 year ago
+                    </p>
+                </div>
+                    
+                
+            </div>
+        </div>
+    </body>
+</html>
